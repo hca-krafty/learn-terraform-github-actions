@@ -25,9 +25,3 @@ provider "google" {
   region = "us-central1"
   zone = "us-central1-c"
 }
-
-resource "google_compute_network" "tf_vcp_net1" {
-  name = "tf-vpc-net-1"
-  routing_mode = "global"
-  auto_create_subnets = false
-}
