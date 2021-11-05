@@ -17,9 +17,3 @@ terraform {
     }
   }
 }
-
-provider "google" {
-  project = "hca-test-321221"
-  region = "us-central1"
-  zone = "us-central1-c"
-}
